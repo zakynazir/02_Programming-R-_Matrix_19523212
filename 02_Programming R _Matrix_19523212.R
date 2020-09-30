@@ -52,5 +52,5 @@ det(G) + det(H) + det(J)
 K <- cbind(G[ , 1:5], J[ , 1:5])
 K
 
-solve(G)
+G %*% solve(G)
 
